@@ -1,0 +1,37 @@
+{
+    "current": {
+        "owners": [{
+                "teamName": "Urban Achievers",
+                "firstName": "Chris",
+                "lastName": "Bernhard",
+                "wins": 23,
+                "loses": 5
+            },
+            {
+                "teamName": "Shogun Dynasty",
+                "firstName": "Dave",
+                "lastName": "Bernhard",
+                "wins": 24,
+                "loses": 2
+            }
+
+        ]
+    },
+    "past": {
+        "owners": [{
+                "teamName": "Minute Men",
+                "firstName": "Derek",
+                "lastName": "Johnson",
+                "wins": 25,
+                "loses": 10
+            },
+            {
+                "teamName": "Leather Heads",
+                "firstName": "Kyle",
+                "lastName": "Smith",
+                "wins": 10,
+                "loses": 15
+            }
+        ]
+    }
+}
