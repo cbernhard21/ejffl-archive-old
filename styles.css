@@ -1,0 +1,131 @@
+:root {
+  --primary-text-color: #606060;
+  --light-text-color: #EBEBEB;
+  --aqua-bg-color: #A3E8FE;
+  --light-bg-color: #E5E5E5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+
+/*******************
+ TYPOGRAPHY 
+ ******************/
+
+.main-title {
+  font-weight: 400;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.subtitle {
+  font-size: clamp(1.5rem, 0rem + 4.1667vw, 1.9rem);
+  background-color: var(--aqua-bg-color);
+  width: 100%;
+}
+
+.team-stats-record {
+  font-size: 1.6rem;
+  padding: 1vw 2px;
+}
+
+
+/*******************
+ UTILITIES 
+ ******************/
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px solid var(--light-text-color);
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.card-padding {
+  padding: .8rem;
+}
+
+.card-bottom-margin {
+  margin-bottom: 1rem;
+}
+
+.align-right {
+  justify-self: end;
+}
+
+
+/*******************
+ DISPLAY
+ ******************/
+
+.main-header {
+  background-color: var(--aqua-bg-color);
+  border-radius: 0 0 10px 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.grid-header {
+  background-color: var(--primary-text-color);
+  color: var(--light-text-color);
+  font-size: 1.6rem;
+  padding: 0 2px;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: minmax(40%, 50%) repeat(3, minmax(30px, auto));
+}
+
+.team-stats-record {
+  border-left: 1px solid var(--light-text-color);
+  border-right: 1px solid var(--light-text-color);
+}
+
+.team-stats-record p {
+  display: flex;
+  align-items: flex-end;
+}
+
+.team-stats-record:nth-child(odd) {
+  background-color: var(--light-bg-color);
+}
+
+.team-stats-record:last-child {
+  border-bottom: 1px solid var(--light-text-color);
+}
+
+
+/*******************
+MEDIA QUERIES 
+ ******************/

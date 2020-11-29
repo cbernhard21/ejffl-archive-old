@@ -2,18 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <title>EJFFL Achives</title>
 </head>
 
 <body>
-    <header>
-        <h1>EJFFL Archive</h1>
-    </header>
+  <header class="main-header card-bottom-margin">
+    <h1 class="main-title container">Ernie J's Fantasy Football League</h1>
+  </header>
+  <main id="main">
+    <article class="card container card-bottom-margin">
+      <h2 class="subtitle card-padding">League Summary</h2>
+      <p class="card-text card-padding">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur officiis doloremque eligendi labore optio sint perspiciatis qui, facere, cumque recusandae dolorem dolores quia laboriosam voluptatem velit. Rem voluptas dolorum perspiciatis. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas quisquam natus minima neque ratione! Totam commodi facilis aliquam eius ratione veniam, nihil, blanditiis?
+      </p>
+    </article>
+    <!-- current team all time standings -->
+    <article class="card container card-bottom-margin">
+      <h2 class="subtitle card-padding">Current Team's All-Time Regular Season Record</h2>
+      <div class="grid-standings card-padding" id="current-records"></div>
+    </article>
 
+    <!-- past team all time standings -->
+    <article class="card container card-bottom-margin">
+      <h2 class="subtitle card-padding">Past Team's All-Time Regular Season Record</h2>
+      <div class="grid-standings card-padding card-margin-bottom" id="past-records"></div>
+    </article>
 
-    <script src="js/app.js"></script>
+  </main>
+  <aside>
+
+  </aside>
+  <footer>
+
+  </footer>
+
+  <script src="js/app.js" type="module"></script>
 </body>
 
 </html>

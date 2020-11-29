@@ -1,37 +1,150 @@
 {
     "current": {
-        "owners": [{
+        "currentOwners": [{
                 "teamName": "Urban Achievers",
                 "firstName": "Chris",
                 "lastName": "Bernhard",
-                "wins": 23,
-                "loses": 5
+                "wins": 41,
+                "loses": 29
             },
             {
                 "teamName": "Shogun Dynasty",
                 "firstName": "Dave",
                 "lastName": "Bernhard",
-                "wins": 24,
-                "loses": 2
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "Big Nasty",
+                "firstName": "Neil",
+                "lastName": "Brecheisen",
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "Flattened Curve",
+                "firstName": "Jeff",
+                "lastName": "Johnson",
+                "wins": 40,
+                "loses": 30
+            },
+            {
+                "teamName": "Jamestown Buffaloes",
+                "firstName": "Matt",
+                "lastName": "Weaver",
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "Flying Canadian",
+                "firstName": "Jake",
+                "lastName": "Gabrielson",
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "Chamberlain's Libido",
+                "firstName": "Adam",
+                "lastName": "Osman",
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "J.G. Wentworth",
+                "firstName": "Erik",
+                "lastName": "Kaltenthaler",
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "North Side Super Combatants",
+                "firstName": "Kenny",
+                "lastName": "Warner",
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "Team $",
+                "firstName": "Brad",
+                "lastName": "Czyzewski",
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "The DeLoreans",
+                "firstName": "Rob",
+                "lastName": "Trepanier",
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "Triple-X",
+                "firstName": "Lizandro",
+                "lastName": "Tremolada",
+                "wins": 0,
+                "loses": 0
             }
 
         ]
     },
     "past": {
-        "owners": [{
+        "pastOwners": [{
                 "teamName": "Minute Men",
                 "firstName": "Derek",
                 "lastName": "Johnson",
-                "wins": 25,
-                "loses": 10
+                "wins": 10,
+                "loses": 0
             },
             {
                 "teamName": "Leather Heads",
                 "firstName": "Kyle",
-                "lastName": "Smith",
-                "wins": 10,
-                "loses": 15
+                "lastName": "??",
+                "wins": 20,
+                "loses": 0
+            },
+            {
+                "teamName": "??",
+                "firstName": "??",
+                "lastName": "??",
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "??",
+                "firstName": "??",
+                "lastName": "??",
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "??",
+                "firstName": "??",
+                "lastName": "??",
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "??",
+                "firstName": "??",
+                "lastName": "??",
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "??",
+                "firstName": "??",
+                "lastName": "??",
+                "wins": 0,
+                "loses": 0
+            },
+            {
+                "teamName": "??",
+                "firstName": "??",
+                "lastName": "??",
+                "wins": 0,
+                "loses": 0
             }
+
         ]
     }
 }
