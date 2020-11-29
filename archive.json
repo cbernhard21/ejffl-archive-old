@@ -4,36 +4,36 @@
                 "teamName": "Urban Achievers",
                 "firstName": "Chris",
                 "lastName": "Bernhard",
-                "wins": 41,
-                "loses": 29
+                "wins": 44,
+                "loses": 38
             },
             {
                 "teamName": "Shogun Dynasty",
                 "firstName": "Dave",
                 "lastName": "Bernhard",
-                "wins": 116,
-                "loses": 84
+                "wins": 122,
+                "loses": 86
             },
             {
                 "teamName": "Big Nasty",
                 "firstName": "Neil",
                 "lastName": "Brecheisen",
-                "wins": 104,
+                "wins": 112,
                 "loses": 96
             },
             {
                 "teamName": "Flattened Curve",
                 "firstName": "Jeff",
                 "lastName": "Johnson",
-                "wins": 40,
-                "loses": 30
+                "wins": 44,
+                "loses": 38
             },
             {
                 "teamName": "Jamestown Buffaloes",
                 "firstName": "Matt",
                 "lastName": "Weaver",
-                "wins": 91,
-                "loses": 109
+                "wins": 93,
+                "loses": 115
             },
             {
                 "teamName": "Flying Canadian",
@@ -46,8 +46,8 @@
                 "teamName": "Chamberlain's Libido",
                 "firstName": "Adam",
                 "lastName": "Osman",
-                "wins": 96,
-                "loses": 104
+                "wins": 101,
+                "loses": 107
             },
             {
                 "teamName": "J.G. Wentworth",
@@ -60,8 +60,8 @@
                 "teamName": "North Side Super Combatants",
                 "firstName": "Kenny",
                 "lastName": "Warner",
-                "wins": 101,
-                "loses": 99
+                "wins": 106,
+                "loses": 102
             },
             {
                 "teamName": "Team $",
@@ -74,15 +74,15 @@
                 "teamName": "The DeLoreans",
                 "firstName": "Rob",
                 "lastName": "Trepanier",
-                "wins": 111,
-                "loses": 89
+                "wins": 112,
+                "loses": 96
             },
             {
                 "teamName": "Triple-X",
                 "firstName": "Lizandro",
                 "lastName": "Tremolada",
-                "wins": 91,
-                "loses": 109
+                "wins": 95,
+                "loses": 113
             }
 
         ]
