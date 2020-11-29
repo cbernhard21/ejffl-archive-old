@@ -11,15 +11,15 @@
                 "teamName": "Shogun Dynasty",
                 "firstName": "Dave",
                 "lastName": "Bernhard",
-                "wins": 0,
-                "loses": 0
+                "wins": 116,
+                "loses": 84
             },
             {
                 "teamName": "Big Nasty",
                 "firstName": "Neil",
                 "lastName": "Brecheisen",
-                "wins": 0,
-                "loses": 0
+                "wins": 104,
+                "loses": 96
             },
             {
                 "teamName": "Flattened Curve",
@@ -46,8 +46,8 @@
                 "teamName": "Chamberlain's Libido",
                 "firstName": "Adam",
                 "lastName": "Osman",
-                "wins": 0,
-                "loses": 0
+                "wins": 96,
+                "loses": 104
             },
             {
                 "teamName": "J.G. Wentworth",
@@ -74,15 +74,15 @@
                 "teamName": "The DeLoreans",
                 "firstName": "Rob",
                 "lastName": "Trepanier",
-                "wins": 0,
-                "loses": 0
+                "wins": 111,
+                "loses": 89
             },
             {
                 "teamName": "Triple-X",
                 "firstName": "Lizandro",
                 "lastName": "Tremolada",
-                "wins": 0,
-                "loses": 0
+                "wins": 91,
+                "loses": 109
             }
 
         ]
