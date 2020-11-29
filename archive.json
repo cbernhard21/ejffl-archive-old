@@ -92,59 +92,51 @@
                 "teamName": "Minute Men",
                 "firstName": "Derek",
                 "lastName": "Johnson",
-                "wins": 10,
+                "wins": 0,
                 "loses": 0
             },
             {
                 "teamName": "Leather Heads",
                 "firstName": "Kyle",
-                "lastName": "??",
-                "wins": 20,
-                "loses": 0
-            },
-            {
-                "teamName": "??",
-                "firstName": "??",
-                "lastName": "??",
+                "lastName": "Crew",
                 "wins": 0,
                 "loses": 0
             },
             {
-                "teamName": "??",
-                "firstName": "??",
-                "lastName": "??",
+                "teamName": "Team Busch",
+                "firstName": "Joe",
+                "lastName": "Pfeiffer",
                 "wins": 0,
                 "loses": 0
             },
             {
-                "teamName": "??",
-                "firstName": "??",
-                "lastName": "??",
+                "teamName": "Bo’s Boys",
+                "firstName": "Kelley",
+                "lastName": "Pfeiffer",
                 "wins": 0,
                 "loses": 0
             },
             {
-                "teamName": "??",
-                "firstName": "??",
-                "lastName": "??",
+                "teamName": "Blue Blazers",
+                "firstName": "Shannon",
+                "lastName": "Brecheisen",
                 "wins": 0,
                 "loses": 0
             },
             {
-                "teamName": "??",
-                "firstName": "??",
-                "lastName": "??",
+                "teamName": "ShowMe/PackerGuy",
+                "firstName": "Jarrod",
+                "lastName": "Becht",
                 "wins": 0,
                 "loses": 0
             },
             {
-                "teamName": "??",
-                "firstName": "??",
-                "lastName": "??",
+                "teamName": "Regulatorz",
+                "firstName": "Ryan",
+                "lastName": "Phillips",
                 "wins": 0,
                 "loses": 0
             }
-
         ]
     }
 }
