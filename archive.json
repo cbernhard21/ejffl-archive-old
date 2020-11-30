@@ -10,8 +10,8 @@
                 "lastName": "Bernhard",
                 "wins": 44,
                 "loses": 38,
-                "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffWins": 1,
+                "playoffLoses": 1
             },
             {
                 "teamName": "Shogun Dynasty",
@@ -19,8 +19,8 @@
                 "lastName": "Bernhard",
                 "wins": 122,
                 "loses": 86,
-                "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffWins": 8,
+                "playoffLoses": 4
             },
             {
                 "teamName": "Big Nasty",
@@ -28,8 +28,8 @@
                 "lastName": "Brecheisen",
                 "wins": 112,
                 "loses": 96,
-                "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffWins": 2,
+                "playoffLoses": 3
             },
             {
                 "teamName": "Flattened Curve",
@@ -37,8 +37,8 @@
                 "lastName": "Johnson",
                 "wins": 44,
                 "loses": 38,
-                "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffWins": 1,
+                "playoffLoses": 1
             },
             {
                 "teamName": "Jamestown Buffaloes",
@@ -46,8 +46,8 @@
                 "lastName": "Weaver",
                 "wins": 93,
                 "loses": 115,
-                "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffWins": 4,
+                "playoffLoses": 3
             },
             {
                 "teamName": "Flying Canadian",
@@ -56,7 +56,7 @@
                 "wins": 57,
                 "loses": 53,
                 "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffLoses": 2
             },
             {
                 "teamName": "Chamberlain's Libido",
@@ -65,7 +65,7 @@
                 "wins": 101,
                 "loses": 107,
                 "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffLoses": 3
             },
             {
                 "teamName": "J.G. Wentworth",
@@ -82,8 +82,8 @@
                 "lastName": "Warner",
                 "wins": 106,
                 "loses": 102,
-                "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffWins": 4,
+                "playoffLoses": 4
             },
             {
                 "teamName": "Team $",
@@ -91,8 +91,8 @@
                 "lastName": "Czyzewski",
                 "wins": 89,
                 "loses": 77,
-                "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffWins": 3,
+                "playoffLoses": 5
             },
             {
                 "teamName": "The DeLoreans",
@@ -100,8 +100,8 @@
                 "lastName": "Trepanier",
                 "wins": 112,
                 "loses": 96,
-                "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffWins": 3,
+                "playoffLoses": 3
             },
             {
                 "teamName": "Triple-X",
@@ -110,20 +110,20 @@
                 "wins": 95,
                 "loses": 113,
                 "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffLoses": 1
             }
 
         ]
     },
     "past": {
         "pastOwners": [{
-                "teamName": "Minute Men",
+                "teamName": "Minutemen/Buffalo Killers",
                 "firstName": "Derek",
                 "lastName": "Johnson",
                 "wins": 83,
                 "loses": 71,
-                "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffWins": 6,
+                "playoffLoses": 7
             },
             {
                 "teamName": "Leather Heads",
@@ -140,8 +140,8 @@
                 "lastName": "Pfeiffer",
                 "wins": 34,
                 "loses": 64,
-                "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffWins": 4,
+                "playoffLoses": 1
             },
             {
                 "teamName": "Bo’s Boys",
@@ -149,8 +149,8 @@
                 "lastName": "Pfeiffer",
                 "wins": 54,
                 "loses": 44,
-                "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffWins": 5,
+                "playoffLoses": 3
             },
             {
                 "teamName": "Blue Blazers",
@@ -176,8 +176,8 @@
                 "lastName": "Phillips",
                 "wins": 58,
                 "loses": 68,
-                "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffWins": 2,
+                "playoffLoses": 3
             }
         ]
     }
