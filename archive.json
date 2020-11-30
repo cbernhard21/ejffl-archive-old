@@ -11,7 +11,8 @@
                 "wins": 44,
                 "loses": 38,
                 "playoffWins": 1,
-                "playoffLoses": 2
+                "playoffLoses": 4,
+                "trades": 33
             },
             {
                 "teamName": "Shogun Dynasty",
@@ -19,8 +20,9 @@
                 "lastName": "Bernhard",
                 "wins": 122,
                 "loses": 86,
-                "playoffWins": 8,
-                "playoffLoses": 5
+                "playoffWins": 11,
+                "playoffLoses": 5,
+                "trades": 37
             },
             {
                 "teamName": "Big Nasty",
@@ -28,8 +30,9 @@
                 "lastName": "Brecheisen",
                 "wins": 112,
                 "loses": 96,
-                "playoffWins": 5,
-                "playoffLoses": 4
+                "playoffWins": 7,
+                "playoffLoses": 4,
+                "trades": 91
             },
             {
                 "teamName": "Flattened Curve",
@@ -37,8 +40,9 @@
                 "lastName": "Johnson",
                 "wins": 44,
                 "loses": 38,
-                "playoffWins": 1,
-                "playoffLoses": 1
+                "playoffWins": 2,
+                "playoffLoses": 4,
+                "trades": 21
             },
             {
                 "teamName": "Jamestown Buffaloes",
@@ -47,7 +51,8 @@
                 "wins": 93,
                 "loses": 115,
                 "playoffWins": 4,
-                "playoffLoses": 5
+                "playoffLoses": 5,
+                "trades": 28
             },
             {
                 "teamName": "Flying Canadian",
@@ -55,8 +60,9 @@
                 "lastName": "Gabrielson",
                 "wins": 57,
                 "loses": 53,
-                "playoffWins": 1,
-                "playoffLoses": 3
+                "playoffWins": 3,
+                "playoffLoses": 5,
+                "trades": 12
             },
             {
                 "teamName": "Chamberlain's Libido",
@@ -64,8 +70,9 @@
                 "lastName": "Osman",
                 "wins": 101,
                 "loses": 107,
-                "playoffWins": 0,
-                "playoffLoses": 4
+                "playoffWins": 2,
+                "playoffLoses": 6,
+                "trades": 89
             },
             {
                 "teamName": "J.G. Wentworth",
@@ -74,7 +81,8 @@
                 "wins": 4,
                 "loses": 8,
                 "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffLoses": 0,
+                "trades": 6
             },
             {
                 "teamName": "North Side Super Combatants",
@@ -83,7 +91,8 @@
                 "wins": 106,
                 "loses": 102,
                 "playoffWins": 4,
-                "playoffLoses": 4
+                "playoffLoses": 5,
+                "trades": 18
             },
             {
                 "teamName": "Team $",
@@ -91,8 +100,9 @@
                 "lastName": "Czyzewski",
                 "wins": 89,
                 "loses": 77,
-                "playoffWins": 3,
-                "playoffLoses": 5
+                "playoffWins": 5,
+                "playoffLoses": 5,
+                "trades": 43
             },
             {
                 "teamName": "The DeLoreans",
@@ -100,8 +110,9 @@
                 "lastName": "Trepanier",
                 "wins": 112,
                 "loses": 96,
-                "playoffWins": 3,
-                "playoffLoses": 4
+                "playoffWins": 5,
+                "playoffLoses": 6,
+                "trades": 41
             },
             {
                 "teamName": "Triple-X",
@@ -110,20 +121,22 @@
                 "wins": 95,
                 "loses": 113,
                 "playoffWins": 1,
-                "playoffLoses": 2
+                "playoffLoses": 4,
+                "trades": 60
             }
 
         ]
     },
     "past": {
         "pastOwners": [{
-                "teamName": "Minutemen/Buffalo Killers",
+                "teamName": "Minutemen",
                 "firstName": "Derek",
                 "lastName": "Johnson",
                 "wins": 83,
                 "loses": 71,
                 "playoffWins": 6,
-                "playoffLoses": 7
+                "playoffLoses": 7,
+                "trades": 31
             },
             {
                 "teamName": "Leather Heads",
@@ -131,8 +144,9 @@
                 "lastName": "Crew",
                 "wins": 16,
                 "loses": 25,
-                "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffWins": 1,
+                "playoffLoses": 1,
+                "trades": 9
             },
             {
                 "teamName": "Team Busch",
@@ -141,7 +155,8 @@
                 "wins": 34,
                 "loses": 64,
                 "playoffWins": 6,
-                "playoffLoses": 2
+                "playoffLoses": 2,
+                "trades": 9
             },
             {
                 "teamName": "Bo’s Boys",
@@ -150,7 +165,8 @@
                 "wins": 54,
                 "loses": 44,
                 "playoffWins": 8,
-                "playoffLoses": 3
+                "playoffLoses": 3,
+                "trades": 8
             },
             {
                 "teamName": "Blue Blazers",
@@ -159,7 +175,8 @@
                 "wins": 16,
                 "loses": 26,
                 "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffLoses": 0,
+                "trades": 4
             },
             {
                 "teamName": "ShowMe/PackerGuy",
@@ -168,7 +185,8 @@
                 "wins": 8,
                 "loses": 20,
                 "playoffWins": 0,
-                "playoffLoses": 0
+                "playoffLoses": 0,
+                "trades": 5
             },
             {
                 "teamName": "Regulatorz",
@@ -177,7 +195,8 @@
                 "wins": 58,
                 "loses": 68,
                 "playoffWins": 2,
-                "playoffLoses": 3
+                "playoffLoses": 3,
+                "trades": 21
             }
         ]
     }

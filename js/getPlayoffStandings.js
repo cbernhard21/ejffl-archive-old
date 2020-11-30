@@ -21,12 +21,13 @@ export async function getPlayoffStandings() {
                             <div class="grid-standings card-padding" id="current-records">
                             ${tableHeaderHtml('Team Name', 'Wins', 'Loses', 'Win %') + generatePlayoffTable(currentOwners)}
                             </div>
+                            <p class="time-stamp container card-bottom-margin">Updated - 11/30/2020</p>
                          </article>
                          <article class="card container card-bottom-margin">
-                         <h2 class="subtitle card-padding">Past Team's All-Time Playoff Record</h2>
-                         <div class="grid-standings card-padding" id="current-records">
-                         ${tableHeaderHtml('Team Name', 'Wins', 'Loses', 'Win %') + generatePlayoffTable(pastOwners)}
-                         </div>
+                            <h2 class="subtitle card-padding">Past Team's All-Time Playoff Record</h2>
+                            <div class="grid-standings card-padding" id="current-records">
+                            ${tableHeaderHtml('Team Name', 'Wins', 'Loses', 'Win %') + generatePlayoffTable(pastOwners)}
+                            </div>
                       </article>`
 
 
