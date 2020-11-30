@@ -1,88 +1,116 @@
 {
+    "summary": {
+        "mainSummary1": "Founded in 2006, the Ernie J. Fantasy Football League (EJFFL) is named after Merrill Hall on the campus of Central Michigan University. Founded by co-commissioners Neil Brecheisen and Lizandro Tremolada, the EJFFL has enjoyed years of spirited involvement ranging from draft calls from China, owner Olympics, and ill-advised bachelor parties.",
+        "mainSummary2": "Now headed solely by Commissioner Tremolada, the EJFFL continues its tradition of bringing longtime friends together, and introducing new ones, for hard-nosed competition and continued camaraderie. If you're reading this, you already know how fortunate you are to be a part of it."
+    },
     "current": {
         "currentOwners": [{
                 "teamName": "Urban Achievers",
                 "firstName": "Chris",
                 "lastName": "Bernhard",
                 "wins": 44,
-                "loses": 38
+                "loses": 38,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "Shogun Dynasty",
                 "firstName": "Dave",
                 "lastName": "Bernhard",
                 "wins": 122,
-                "loses": 86
+                "loses": 86,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "Big Nasty",
                 "firstName": "Neil",
                 "lastName": "Brecheisen",
                 "wins": 112,
-                "loses": 96
+                "loses": 96,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "Flattened Curve",
                 "firstName": "Jeff",
                 "lastName": "Johnson",
                 "wins": 44,
-                "loses": 38
+                "loses": 38,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "Jamestown Buffaloes",
                 "firstName": "Matt",
                 "lastName": "Weaver",
                 "wins": 93,
-                "loses": 115
+                "loses": 115,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "Flying Canadian",
                 "firstName": "Jake",
                 "lastName": "Gabrielson",
                 "wins": 57,
-                "loses": 53
+                "loses": 53,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "Chamberlain's Libido",
                 "firstName": "Adam",
                 "lastName": "Osman",
                 "wins": 101,
-                "loses": 107
+                "loses": 107,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "J.G. Wentworth",
                 "firstName": "Erik",
                 "lastName": "Kaltenthaler",
                 "wins": 4,
-                "loses": 8
+                "loses": 8,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "North Side Super Combatants",
                 "firstName": "Kenny",
                 "lastName": "Warner",
                 "wins": 106,
-                "loses": 102
+                "loses": 102,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "Team $",
                 "firstName": "Brad",
                 "lastName": "Czyzewski",
                 "wins": 89,
-                "loses": 77
+                "loses": 77,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "The DeLoreans",
                 "firstName": "Rob",
                 "lastName": "Trepanier",
                 "wins": 112,
-                "loses": 96
+                "loses": 96,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "Triple-X",
                 "firstName": "Lizandro",
                 "lastName": "Tremolada",
                 "wins": 95,
-                "loses": 113
+                "loses": 113,
+                "playoffWins": 0,
+                "playoffLoses": 0
             }
 
         ]
@@ -92,50 +120,64 @@
                 "teamName": "Minute Men",
                 "firstName": "Derek",
                 "lastName": "Johnson",
-                "wins": 0,
-                "loses": 0
+                "wins": 83,
+                "loses": 71,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "Leather Heads",
                 "firstName": "Kyle",
                 "lastName": "Crew",
                 "wins": 16,
-                "loses": 25
+                "loses": 25,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "Team Busch",
                 "firstName": "Joe",
                 "lastName": "Pfeiffer",
-                "wins": 0,
-                "loses": 0
+                "wins": 34,
+                "loses": 64,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "Bo’s Boys",
                 "firstName": "Kelley",
                 "lastName": "Pfeiffer",
-                "wins": 0,
-                "loses": 0
+                "wins": 54,
+                "loses": 44,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "Blue Blazers",
                 "firstName": "Shannon",
                 "lastName": "Brecheisen",
-                "wins": 0,
-                "loses": 0
+                "wins": 16,
+                "loses": 26,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "ShowMe/PackerGuy",
                 "firstName": "Jarrod",
                 "lastName": "Becht",
                 "wins": 8,
-                "loses": 20
+                "loses": 20,
+                "playoffWins": 0,
+                "playoffLoses": 0
             },
             {
                 "teamName": "Regulatorz",
                 "firstName": "Ryan",
                 "lastName": "Phillips",
-                "wins": 0,
-                "loses": 0
+                "wins": 58,
+                "loses": 68,
+                "playoffWins": 0,
+                "playoffLoses": 0
             }
         ]
     }

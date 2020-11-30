@@ -3,6 +3,7 @@
   --light-text-color: #EBEBEB;
   --aqua-bg-color: #A3E8FE;
   --light-bg-color: #E5E5E5;
+  --orange-bg-color: #FFDBA5;
 }
 
 * {
@@ -15,10 +16,25 @@ html {
   font-size: 10px;
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
 }
 
 
@@ -37,12 +53,12 @@ strong {
 }
 
 .card-text {
-  font-size: 1.6rem;
-  line-height: 1.4;
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
 
 .subtitle {
-  font-size: clamp(1.5rem, 0rem + 4.1667vw, 1.9rem);
+  font-size: clamp(1.5rem, 0rem + 4.1667vw, 2rem);
   background-color: var(--aqua-bg-color);
   width: 100%;
 }
@@ -87,6 +103,15 @@ strong {
  DISPLAY
  ******************/
 
+.page-layout-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+main {
+  order: 2;
+}
+
 .main-header {
   background-color: var(--aqua-bg-color);
   border-radius: 0 0 10px 10px;
@@ -125,6 +150,30 @@ strong {
   border-bottom: 1px solid var(--light-text-color);
 }
 
+nav {
+  order: 1;
+}
+
+nav .subtitle {
+  background-color: var(--orange-bg-color);
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  font-size: 2rem;
+  border: 1px solid var(--light-bg-color);
+  padding: 1.5rem 2rem;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background-color: var(--light-text-color);
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -133,6 +182,8 @@ footer {
   font-size: 1.9rem;
   background-color: #606060;
   color: var(--light-bg-color);
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 footer div {
@@ -143,3 +194,20 @@ footer div {
 /*******************
 MEDIA QUERIES 
  ******************/
+
+@media screen and (min-width: 750px) {
+  .page-layout-container {
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+    grid-template-columns: minmax(auto, 65%) minmax(250px, 35%);
+  }
+  main {
+    order: 1;
+  }
+  nav {
+    height: auto;
+    align-self: start;
+    order: 2;
+  }
+}

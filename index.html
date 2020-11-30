@@ -11,36 +11,24 @@
 </head>
 
 <body>
-  <header class="main-header card-bottom-margin">
-    <h1 class="main-title container">Ernie J's Fantasy Football League</h1>
-  </header>
-  <main id="main">
-    <article class="card container card-bottom-margin">
-      <h2 class="subtitle card-padding">League Overview</h2>
-      <p class="card-text card-padding">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur officiis doloremque eligendi labore optio sint perspiciatis qui, facere, cumque recusandae dolorem dolores quia laboriosam voluptatem velit. Rem voluptas dolorum perspiciatis. Lorem
-        ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas quisquam natus minima neque ratione! Totam commodi facilis aliquam eius ratione veniam, nihil, blanditiis?
-      </p>
-    </article>
-    <!-- current team all time standings -->
-    <article class="card container card-bottom-margin">
-      <h2 class="subtitle card-padding">Current Team's All-Time Regular Season Record</h2>
-      <div class="grid-standings card-padding" id="current-records"></div>
-    </article>
-
-    <!-- past team all time standings -->
-    <article class="card container card-bottom-margin">
-      <h2 class="subtitle card-padding">Past Team's All-Time Regular Season Record</h2>
-      <div class="grid-standings card-padding card-margin-bottom" id="past-records"></div>
-    </article>
-
-  </main>
-  <nav>
-
-  </nav>
-  <footer>
+  <div class="content">
+    <header class="main-header card-bottom-margin">
+      <h1 class="main-title container">Ernie J's Fantasy Football League</h1>
+    </header>
+    <div class="page-layout-container">
+      <main id="main"></main>
+      <nav class="card container card-bottom-margin">
+        <h2 class="subtitle card-padding">League Archive</h2>
+        <ul class="nav-list">
+          <li class="nav-item" id="home">Home</li>
+          <li class="nav-item" id="all-time-standings">All-Time Regular Season Standings</li>
+          <li class="nav-item" id="playoff-standings">All-Time Playoff Standings</li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <footer id="footer">
     <div class="container">Powered By Gutterballs Productions</div>
-
   </footer>
 
   <script src="js/app.js" type="module"></script>
