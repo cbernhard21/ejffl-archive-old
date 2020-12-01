@@ -1,7 +1,7 @@
 {
     "summary": {
-        "mainSummary1": "Founded in 2006, the Ernie J. Fantasy Football League (EJFFL) is named after Merrill Hall on the campus of Central Michigan University. Founded by co-commissioners Neil Brecheisen and Lizandro Tremolada, the EJFFL has enjoyed years of spirited involvement ranging from draft calls from China, owner Olympics, and ill-advised bachelor parties.",
-        "mainSummary2": "Now headed solely by Commissioner Tremolada, the EJFFL continues its tradition of bringing longtime friends together, and introducing new ones, for hard-nosed competition and continued camaraderie. If you're reading this, you already know how fortunate you are to be a part of it."
+        "mainSummary1": "Founded in 2006, the Ernie J. Fantasy Football League (EJFFL) is named after Merrill Hall on the campus of Central Michigan University. Launched by co-commissioners Neil Brecheisen and Lizandro Tremolada, the EJFFL has enjoyed years of spirited involvement ranging from draft calls from China, owner Olympics, and ill-advised bachelor parties.",
+        "mainSummary2": "Now headed by Commissioner Tremolada, the EJFFL continues its tradition of bringing longtime friends together, and introducing new ones, for hard-nosed competition and continued camaraderie. If you're reading this, you already know how fortunate you are to be a part of it."
     },
     "current": {
         "currentOwners": [{
@@ -9,7 +9,7 @@
                 "firstName": "Chris",
                 "lastName": "Bernhard",
                 "wins": 44,
-                "loses": 38,
+                "loses": 39,
                 "playoffWins": 1,
                 "playoffLoses": 4,
                 "trades": 33
@@ -18,7 +18,7 @@
                 "teamName": "Shogun Dynasty",
                 "firstName": "Dave",
                 "lastName": "Bernhard",
-                "wins": 122,
+                "wins": 123,
                 "loses": 86,
                 "playoffWins": 11,
                 "playoffLoses": 5,
@@ -28,7 +28,7 @@
                 "teamName": "Big Nasty",
                 "firstName": "Neil",
                 "lastName": "Brecheisen",
-                "wins": 112,
+                "wins": 113,
                 "loses": 96,
                 "playoffWins": 7,
                 "playoffLoses": 4,
@@ -39,7 +39,7 @@
                 "firstName": "Jeff",
                 "lastName": "Johnson",
                 "wins": 44,
-                "loses": 38,
+                "loses": 39,
                 "playoffWins": 2,
                 "playoffLoses": 4,
                 "trades": 21
@@ -49,7 +49,7 @@
                 "firstName": "Matt",
                 "lastName": "Weaver",
                 "wins": 93,
-                "loses": 115,
+                "loses": 116,
                 "playoffWins": 4,
                 "playoffLoses": 5,
                 "trades": 28
@@ -59,7 +59,7 @@
                 "firstName": "Jake",
                 "lastName": "Gabrielson",
                 "wins": 57,
-                "loses": 53,
+                "loses": 54,
                 "playoffWins": 3,
                 "playoffLoses": 5,
                 "trades": 12
@@ -68,7 +68,7 @@
                 "teamName": "Chamberlain's Libido",
                 "firstName": "Adam",
                 "lastName": "Osman",
-                "wins": 101,
+                "wins": 102,
                 "loses": 107,
                 "playoffWins": 2,
                 "playoffLoses": 6,
@@ -88,7 +88,7 @@
                 "teamName": "North Side Super Combatants",
                 "firstName": "Kenny",
                 "lastName": "Warner",
-                "wins": 106,
+                "wins": 107,
                 "loses": 102,
                 "playoffWins": 4,
                 "playoffLoses": 5,
@@ -108,7 +108,7 @@
                 "teamName": "The DeLoreans",
                 "firstName": "Rob",
                 "lastName": "Trepanier",
-                "wins": 112,
+                "wins": 113,
                 "loses": 96,
                 "playoffWins": 5,
                 "playoffLoses": 6,
@@ -119,7 +119,7 @@
                 "firstName": "Lizandro",
                 "lastName": "Tremolada",
                 "wins": 95,
-                "loses": 113,
+                "loses": 114,
                 "playoffWins": 1,
                 "playoffLoses": 4,
                 "trades": 60

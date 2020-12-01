@@ -9,13 +9,18 @@ export const tradeHistory = async() => {
     allOwners.sort((a, b) => b.trades - a.trades);
 
     const trades = allOwners.map((owner) => {
-        return `<li>${owner.teamName} - ${owner.trades}</li>`;
+        return `<li>${owner.teamName} - <strong>${owner.trades}</strong></li>`;
     }).join('');
 
     const tradeHtml = `<div class="card-bottom-margin trade">
-                        <img src="../images/trade-history-2020.jpg" alt="Trade Chart" class="img" />
-                        <h2 class="container">All Time Trades</h2>                
-                        <ul class="trade-list container">${trades}</ul>
+                        <figure class="card-bottom-margin">
+                            <img src="../images/trade-history-2020.jpg" alt="Trade Chart" class="img" />
+                            <figcaption class="time-stamp">Updated 12/1/20</figcaption>
+                        </figure>
+                        <article class="card container">
+                            <h2 class="subtitle card-padding">All Time Trades</h2>                
+                            <ul class="trade-list card-padding">${trades}</ul>
+                        </article>
                       </div> `;
 
 
