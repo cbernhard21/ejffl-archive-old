@@ -21,16 +21,16 @@ export async function getRegularStandings() {
                             <div class="grid-standings card-padding" id="current-records">
                             ${tableHeaderHtml('Team Name', 'Wins', 'Loses', 'Win %') + generateTable(currentOwners)}
                             </div>
-                            <p class="time-stamp container card-bottom-margin">Updated - 11/30/2020</p>
+                            <p class="time-stamp container card-bottom-margin">Updated - 12/2/2020</p>
                          </article>
                          <article class="card container card-bottom-margin">
-                         <h2 class="subtitle card-padding">Past Team's All-Time Regular Season Record</h2>
-                         <div class="grid-standings card-padding" id="current-records">
-                         ${tableHeaderHtml('Team Name', 'Wins', 'Loses', 'Win %') + generateTable(pastOwners)}
-                         </div>
-                      </article>
-                      
-                      `
+                            <h2 class="subtitle card-padding">Past Team's All-Time Regular Season Record</h2>
+                            <div class="grid-standings card-padding" id="current-records">
+                            ${tableHeaderHtml('Team Name', 'Wins', 'Loses', 'Win %') + generateTable(pastOwners)}
+                            </div>
+                        </article>
+                        
+                        `
 
 
     } catch (error) {
