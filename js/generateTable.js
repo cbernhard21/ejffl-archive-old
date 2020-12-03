@@ -16,7 +16,7 @@ export const generateTable = (items) => {
 export const generatePlayoffTable = (items) => {
     let currentStandingsHtml = items.map(item => {
         const winPercentage = item.playoffWins / (item.playoffWins + item.playoffLoses);
-        const finalWinPercentage = isNaN(winPercentage) ? '.000' : winPercentage.toFixed(3).slice(1);
+        let finalWinPercentage = isNaN(winPercentage) ? '.000' : winPercentage.toFixed(3).slice(1);
 
         return `<div class="team-stats-record grid-4">
                     <p>${item.teamName}</p>

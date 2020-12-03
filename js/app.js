@@ -18,6 +18,7 @@ home.addEventListener('click', () => {
 allTimeRegularStandings.addEventListener('click', () => {
     main.innerHTML = '';
     getRegularStandings();
+
 });
 
 playoffStandings.addEventListener('click', () => {
