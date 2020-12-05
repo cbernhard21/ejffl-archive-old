@@ -1,8 +1,8 @@
 import { generatePlayoffTable } from "./generateTable.js";
-import { tableHeaderHtml } from "./tableHeader.js";
 
 export async function getPlayoffStandings() {
-    const main = document.querySelector('#main');
+    const currentPlayoffStandingsContainer = document.querySelector('#current-playoff-standings-container');
+    const pastPlayoffStandingsContainer = document.querySelector('#past-playoff-standings-container');
     const response = await fetch('archive.json');
     const data = await response.json();
 
@@ -10,26 +10,54 @@ export async function getPlayoffStandings() {
     const currentOwners = data.current.currentOwners;
     const pastOwners = data.past.pastOwners;
 
-    try {
+    //columns to sort by
+    const winsColumnCurrent = document.querySelector('#wins-column-current');
+    const losesColumnCurrent = document.querySelector('#loses-column-current');
+    const percentColumnCurrent = document.querySelector('#percent-column-current');
+    const winsColumnPast = document.querySelector('#wins-column-past');
+    const losesColumnPast = document.querySelector('#loses-column-past');
+    const percentColumnPast = document.querySelector('#percent-column-past');
 
-        //sort list of owners by wins        
+    try {
+        //sort list of owners by wins on page load
         currentOwners.sort((a, b) => b.playoffWins - a.playoffWins);
         pastOwners.sort((a, b) => b.playoffWins - a.playoffWins);
+        currentPlayoffStandingsContainer.innerHTML = generatePlayoffTable(currentOwners);
+        pastPlayoffStandingsContainer.innerHTML = generatePlayoffTable(pastOwners);
 
-        main.innerHTML = `<article class="card container card-bottom-margin">
-                            <h2 class="subtitle card-padding">Current Team's All-Time Playoff Record</h2>
-                            <div class="grid-standings card-padding" id="current-records">
-                            ${tableHeaderHtml('Team Name', 'Wins', 'Loses', 'Win %') + generatePlayoffTable(currentOwners)}
-                            </div>
-                            <p class="time-stamp container card-bottom-margin">Updated - 11/30/2020</p>
-                         </article>
-                         <article class="card container card-bottom-margin">
-                            <h2 class="subtitle card-padding">Past Team's All-Time Playoff Record</h2>
-                            <div class="grid-standings card-padding" id="current-records">
-                            ${tableHeaderHtml('Team Name', 'Wins', 'Loses', 'Win %') + generatePlayoffTable(pastOwners)}
-                            </div>
-                      </article>`
+        //sort by wins if win column is clicked on current teams
+        winsColumnCurrent.addEventListener('click', () => {
+            currentOwners.sort((a, b) => b.playoffWins - a.playoffWins);
+            currentPlayoffStandingsContainer.innerHTML = generatePlayoffTable(currentOwners);
+        });
 
+        //sort by loses if loses column is clicked on current teams
+        losesColumnCurrent.addEventListener('click', () => {
+            currentOwners.sort((a, b) => b.playoffLoses - a.playoffLoses);
+            currentPlayoffStandingsContainer.innerHTML = generatePlayoffTable(currentOwners);
+        });
+
+        // sort by win percentage is clicked current teams
+        percentColumnCurrent.addEventListener('click', () => {
+            console.log('current percent column was clicked')
+        })
+
+        //sort by wins if win column is clicked on past teams
+        winsColumnPast.addEventListener('click', () => {
+            pastOwners.sort((a, b) => b.playoffWins - a.playoffWins);
+            pastPlayoffStandingsContainer.innerHTML = generatePlayoffTable(pastOwners);
+        });
+
+        //sort by loses if loses column is clicked on past teams
+        losesColumnPast.addEventListener('click', () => {
+            pastOwners.sort((a, b) => b.playoffLoses - a.playoffLoses);
+            pastPlayoffStandingsContainer.innerHTML = generatePlayoffTable(pastOwners);
+        });
+
+        // sort by win percentage is clicked past teams
+        percentColumnPast.addEventListener('click', () => {
+            console.log('past percent column was clicked')
+        })
 
     } catch (error) {
         console.log("No Information", error)

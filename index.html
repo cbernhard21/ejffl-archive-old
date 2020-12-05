@@ -2,37 +2,43 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <title>EJFFL Archives</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" type="text/css">
+  <title>EJFFL Archives</title>
 </head>
 
 <body>
-    <div class="content">
-        <header class="main-header card-bottom-margin">
-            <h1 class="main-title container">Ernie J's Fantasy Football League</h1>
-        </header>
-        <div class="page-layout-container">
-            <main id="main"></main>
-            <nav class="card container card-bottom-margin">
-                <h2 class="subtitle card-padding">League Archive</h2>
-                <ul class="nav-list">
-                    <li class="nav-item" id="home">Home</li>
-                    <li class="nav-item" id="all-time-standings">All-Time Regular Season Standings</li>
-                    <li class="nav-item" id="playoff-standings">All-Time Playoff Standings</li>
-                    <li class="nav-item" id="trade-history">Trade History</li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <footer id="footer">
-        <div class="container">Powered By Gutterballs Productions</div>
-    </footer>
+  <div class="content">
+    <header class="main-header card-bottom-margin">
+      <h1 class="main-title container">Ernie J's Fantasy Football League</h1>
+    </header>
 
-    <script src="js/app.js" type="module"></script>
+    <!-- all content goes here -->
+    <div class="page-layout-container">
+      <main id="main">
+        <div id="index"></div>
+      </main>
+
+      <!-- main navigation -->
+      <nav class="card container card-bottom-margin">
+        <h2 class="subtitle card-padding">League Archive</h2>
+        <ul class="nav-list">
+          <li class="nav-item" id="home"><a href="index.html">Home</a></li>
+          <li class="nav-item" id="current"><a href="current-standings.html">All-Time Regular Season Standings</a></li>
+          <li class="nav-item" id="playoff"><a href="playoff-standings.html">All-Time Playoff Standings</a></li>
+          <li class="nav-item" id="trades"><a href="trades.html">Trade History</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <footer id="footer">
+    <div class="container">Powered By Gutterballs Productions</div>
+  </footer>
+
+  <script src="js/app.js" type="module"></script>
 </body>
 
 </html>

@@ -3,30 +3,14 @@ import { getPlayoffStandings } from "./getPlayoffStandings.js"
 import { displayMainSummary } from "./displayMainSummary.js"
 import { tradeHistory } from "./tradeHistory.js"
 
-const home = document.querySelector('#home');
-const allTimeRegularStandings = document.querySelector('#all-time-standings');
-const playoffStandings = document.querySelector('#playoff-standings');
-const trade = document.querySelector('#trade-history');
+const currentPage = window.location.pathname;
 
-displayMainSummary();
-
-home.addEventListener('click', () => {
-    main.innerHTML = '';
+if (currentPage === '/index.html') {
     displayMainSummary();
-});
-
-allTimeRegularStandings.addEventListener('click', () => {
-    main.innerHTML = '';
+} else if (currentPage === '/current-standings.html') {
     getRegularStandings();
-
-});
-
-playoffStandings.addEventListener('click', () => {
-    main.innerHTML = '';
+} else if (currentPage === '/playoff-standings.html') {
     getPlayoffStandings();
-});
-
-trade.addEventListener('click', () => {
-    main.innerHTML = '';
+} else if (currentPage === '/trades.html') {
     tradeHistory();
-});
+}

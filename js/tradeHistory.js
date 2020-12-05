@@ -1,5 +1,5 @@
 export const tradeHistory = async() => {
-    const main = document.querySelector('#main');
+    const tradesContainer = document.querySelector('#trades-container');
     const response = await fetch('archive.json');
     const data = await response.json();
     const currentOwners = data.current.currentOwners;
@@ -24,6 +24,6 @@ export const tradeHistory = async() => {
                       </div> `;
 
 
-    main.innerHTML = tradeHtml;
+    tradesContainer.innerHTML = tradeHtml;
 
 };

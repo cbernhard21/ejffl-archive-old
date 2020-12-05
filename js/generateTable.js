@@ -7,7 +7,7 @@ export const generateTable = (items) => {
                     <p>${item.teamName}</p>
                     <p class="align-right">${item.wins}</p>
                     <p class="align-right">${item.loses}</p>
-                    <p class="align-right">${finalWinPercentage}</p>
+                    <p class="align-right win-percent">${finalWinPercentage}</p>
                 </div>`
     }).join('');
     return currentStandingsHtml;

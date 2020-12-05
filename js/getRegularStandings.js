@@ -1,8 +1,8 @@
 import { generateTable } from "./generateTable.js";
-import { tableHeaderHtml } from "./tableHeader.js";
 
 export async function getRegularStandings() {
-    const main = document.querySelector('#main');
+    const currentStandingsContainer = document.querySelector('#current-standings-container');
+    const pastStandingsContainer = document.querySelector('#past-standings-container');
     const response = await fetch('archive.json');
     const data = await response.json();
 
@@ -10,63 +10,64 @@ export async function getRegularStandings() {
     const currentOwners = data.current.currentOwners;
     const pastOwners = data.past.pastOwners;
 
+    //columns to sort by
+    const winsColumnCurrent = document.querySelector('#wins-column-current');
+    const losesColumnCurrent = document.querySelector('#loses-column-current');
+    const percentColumnCurrent = document.querySelector('#percent-column-current');
+    const winsColumnPast = document.querySelector('#wins-column-past');
+    const losesColumnPast = document.querySelector('#loses-column-past');
+    const percentColumnPast = document.querySelector('#percent-column-past');
+
     try {
-
-        const headerData = tableHeaderHtml('Team Name', 'Wins', 'Loses', 'Win %');
-
-        function sortDataHtml(current, past) {
-
-            const tableDataCurrent = generateTable(current);
-            const tableDataPast = generateTable(past);
-
-            return `<article class="card container card-bottom-margin">
-                                <h2 class="subtitle card-padding">Current Team's All-Time Regular Season Record</h2>
-                                <div class="grid-standings card-padding" id="current-records">
-                                ${headerData + tableDataCurrent}
-                                </div>
-                                <p class="time-stamp container card-bottom-margin">Updated - 12/2/2020</p>
-                             </article>
-                             <article class="card container card-bottom-margin">
-                                <h2 class="subtitle card-padding">Past Team's All-Time Regular Season Record</h2>
-                                <div class="grid-standings card-padding" id="current-records">
-                                ${headerData + tableDataPast}
-                                </div>
-                            </article>`
-        }
 
         //sort list of owners by wins on page load
         currentOwners.sort((a, b) => b.wins - a.wins);
         pastOwners.sort((a, b) => b.wins - a.wins);
-        main.innerHTML = sortDataHtml(currentOwners, pastOwners);
+        currentStandingsContainer.innerHTML = generateTable(currentOwners);
+        pastStandingsContainer.innerHTML = generateTable(pastOwners);
 
-        //sort by wins with click
-        const winsColumn = document.querySelector('#wins-column');
-        winsColumn.addEventListener('click', () => {
-            console.log('test wins')
+        //sort by wins if win column is clicked on current teams
+        winsColumnCurrent.addEventListener('click', () => {
             currentOwners.sort((a, b) => b.wins - a.wins);
             pastOwners.sort((a, b) => b.wins - a.wins);
-            // main.innerHTML = sortDataHtml(currentOwners, pastOwners);
-        })
+            currentStandingsContainer.innerHTML = generateTable(currentOwners);
 
+        });
 
-
-        //sort by loses with click
-        const losesColumn = document.querySelector('#loses-column');
-        losesColumn.addEventListener('click', () => {
-            console.log('test loses')
+        //sort by loses if loses column is clicked on current teams
+        losesColumnCurrent.addEventListener('click', () => {
             currentOwners.sort((a, b) => b.loses - a.loses);
             pastOwners.sort((a, b) => b.loses - a.loses);
-            // main.innerHTML = sortDataHtml(currentOwners, pastOwners);
+            currentStandingsContainer.innerHTML = generateTable(currentOwners);
+
+        });
+
+        percentColumnCurrent.addEventListener('click', () => {
+            const winPercent = document.querySelectorAll('.win-percent');
+            for (let i = 0; i < winPercent.length; i++) {
+
+            }
         })
 
+        //sort by wins if win column is clicked on past teams
+        winsColumnPast.addEventListener('click', () => {
+            currentOwners.sort((a, b) => b.wins - a.wins);
+            pastOwners.sort((a, b) => b.wins - a.wins);
+            // currentStandingsContainer.innerHTML = generateTable(currentOwners);
+            pastStandingsContainer.innerHTML = generateTable(pastOwners);
+        });
 
-        //sort by win percentage
-        const percentColumn = document.querySelector('#percent-column');
-        percentColumn.addEventListener('click', () => {
-            console.log('test win percentage')
+        //sort by loses if loses column is clicked on past teams
+        losesColumnPast.addEventListener('click', () => {
+            currentOwners.sort((a, b) => b.loses - a.loses);
+            pastOwners.sort((a, b) => b.loses - a.loses);
+            // currentStandingsContainer.innerHTML = generateTable(currentOwners);
+            pastStandingsContainer.innerHTML = generateTable(pastOwners);
+        });
 
+        percentColumnPast.addEventListener('click', () => {
+            console.log('past percent column was clicked')
         })
-
 
     } catch (error) {
         console.log("No Information", error)
