@@ -117,7 +117,7 @@ strong {
 }
 
 .is-hidden {
-  display: none;
+  visibility: hidden;
 }
 
 .pointer {
