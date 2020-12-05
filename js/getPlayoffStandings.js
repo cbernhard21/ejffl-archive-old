@@ -3,8 +3,12 @@ import { generatePlayoffTable } from "./generateTable.js";
 export async function getPlayoffStandings() {
     const currentPlayoffStandingsContainer = document.querySelector('#current-playoff-standings-container');
     const pastPlayoffStandingsContainer = document.querySelector('#past-playoff-standings-container');
+    const main = document.querySelector('#main');
     const response = await fetch('archive.json');
     const data = await response.json();
+
+    // remove hidden class when finished loading
+    main.classList.remove('is-hidden');
 
     //sections from the json file to work with
     const currentOwners = data.current.currentOwners;

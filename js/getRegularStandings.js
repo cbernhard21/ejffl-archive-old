@@ -3,9 +3,12 @@ import { generateTable } from "./generateTable.js";
 export async function getRegularStandings() {
     const currentStandingsContainer = document.querySelector('#current-standings-container');
     const pastStandingsContainer = document.querySelector('#past-standings-container');
+    const main = document.querySelector('#main');
     const response = await fetch('archive.json');
     const data = await response.json();
 
+    // remove hidden class when finished loading
+    main.classList.remove('is-hidden');
     //sections from the json file to work with
     const currentOwners = data.current.currentOwners;
     const pastOwners = data.past.pastOwners;
