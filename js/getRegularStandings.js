@@ -9,6 +9,7 @@ export async function getRegularStandings() {
 
     // remove hidden class when finished loading
     main.classList.remove('is-hidden');
+
     //sections from the json file to work with
     const currentOwners = data.current.currentOwners;
     const pastOwners = data.past.pastOwners;

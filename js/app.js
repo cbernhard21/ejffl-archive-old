@@ -5,6 +5,8 @@ import { tradeHistory } from "./tradeHistory.js"
 
 const currentPage = window.location.pathname;
 
+
+
 if (currentPage === '/index.html') {
     displayMainSummary();
 } else if (currentPage === '/current-standings.html') {
@@ -13,4 +15,6 @@ if (currentPage === '/index.html') {
     getPlayoffStandings();
 } else if (currentPage === '/trades.html') {
     tradeHistory();
+} else {
+    displayMainSummary();
 }
