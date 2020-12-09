@@ -6,6 +6,7 @@
     "current": {
         "currentOwners": [{
                 "teamName": "Urban Achievers",
+                "logo": "images/logos/LLUA-logo.gif",
                 "firstName": "Chris",
                 "lastName": "Bernhard",
                 "wins": 45,
@@ -17,6 +18,7 @@
             },
             {
                 "teamName": "Shogun Dynasty",
+                "logo": "images/logos/shogun-logo.jpg",
                 "firstName": "Dave",
                 "lastName": "Bernhard",
                 "wins": 124,
@@ -24,10 +26,11 @@
                 "playoffWins": 11,
                 "playoffLoses": 5,
                 "trades": 37,
-                "championships": []
+                "championships": [2009, 2013, 2014, 2018]
             },
             {
                 "teamName": "Big Nasty",
+                "logo": "images/logos/big-nasty.jpg",
                 "firstName": "Neil",
                 "lastName": "Brecheisen",
                 "wins": 113,
@@ -35,10 +38,11 @@
                 "playoffWins": 7,
                 "playoffLoses": 4,
                 "trades": 91,
-                "championships": []
+                "championships": [2016, 2017]
             },
             {
                 "teamName": "Flattened Curve",
+                "logo": "images/logos/curve-logo.png",
                 "firstName": "Jeff",
                 "lastName": "Johnson",
                 "wins": 44,
@@ -50,6 +54,7 @@
             },
             {
                 "teamName": "Jamestown Buffaloes",
+                "logo": "images/logos/buffaloes-logo.png",
                 "firstName": "Matt",
                 "lastName": "Weaver",
                 "wins": 94,
@@ -61,6 +66,7 @@
             },
             {
                 "teamName": "Flying Canadian",
+                "logo": "images/logos/FC-logo.jpg",
                 "firstName": "Jake",
                 "lastName": "Gabrielson",
                 "wins": 57,
@@ -72,6 +78,7 @@
             },
             {
                 "teamName": "Chamberlain's Libido",
+                "logo": "images/logos/chamberlain-logo.jpg",
                 "firstName": "Adam",
                 "lastName": "Osman",
                 "wins": 102,
@@ -83,6 +90,7 @@
             },
             {
                 "teamName": "J.G. Wentworth",
+                "logo": "images/logos/JG-logo.jpg",
                 "firstName": "Erik",
                 "lastName": "Kaltenthaler",
                 "wins": 4,
@@ -94,6 +102,7 @@
             },
             {
                 "teamName": "North Side Super Combatants",
+                "logo": "images/logos/NSSC-logo.jpg",
                 "firstName": "Kenny",
                 "lastName": "Warner",
                 "wins": 108,
@@ -101,10 +110,11 @@
                 "playoffWins": 4,
                 "playoffLoses": 5,
                 "trades": 18,
-                "championships": []
+                "championships": [2012]
             },
             {
                 "teamName": "Team $",
+                "logo": "images/logos/money-logo.jpg",
                 "firstName": "Brad",
                 "lastName": "Czyzewski",
                 "wins": 91,
@@ -112,10 +122,11 @@
                 "playoffWins": 5,
                 "playoffLoses": 5,
                 "trades": 43,
-                "championships": []
+                "championships": [2011, 2019]
             },
             {
                 "teamName": "The DeLoreans",
+                "logo": "images/logos/delos-logo.png",
                 "firstName": "Rob",
                 "lastName": "Trepanier",
                 "wins": 114,
@@ -123,10 +134,11 @@
                 "playoffWins": 5,
                 "playoffLoses": 6,
                 "trades": 41,
-                "championships": []
+                "championships": [2015]
             },
             {
                 "teamName": "Triple-X",
+                "logo": "images/logos/xxx-logo.gif",
                 "firstName": "Lizandro",
                 "lastName": "Tremolada",
                 "wins": 95,
@@ -142,6 +154,7 @@
     "past": {
         "pastOwners": [{
                 "teamName": "Minutemen",
+                "logo": "images/logos/generic-logo.png",
                 "firstName": "Derek",
                 "lastName": "Johnson",
                 "wins": 83,
@@ -149,10 +162,11 @@
                 "playoffWins": 6,
                 "playoffLoses": 7,
                 "trades": 31,
-                "championships": []
+                "championships": [2008]
             },
             {
                 "teamName": "Leather Heads",
+                "logo": "images/logos/generic-logo.png",
                 "firstName": "Kyle",
                 "lastName": "Crew",
                 "wins": 16,
@@ -164,6 +178,7 @@
             },
             {
                 "teamName": "Team Busch",
+                "logo": "images/logos/generic-logo.png",
                 "firstName": "Joe",
                 "lastName": "Pfeiffer",
                 "wins": 34,
@@ -171,10 +186,11 @@
                 "playoffWins": 6,
                 "playoffLoses": 2,
                 "trades": 9,
-                "championships": []
+                "championships": [2006]
             },
             {
                 "teamName": "Bo’s Boys",
+                "logo": "images/logos/generic-logo.png",
                 "firstName": "Kelley",
                 "lastName": "Pfeiffer",
                 "wins": 54,
@@ -182,10 +198,11 @@
                 "playoffWins": 8,
                 "playoffLoses": 3,
                 "trades": 8,
-                "championships": []
+                "championships": [2007, 2010]
             },
             {
                 "teamName": "Blue Blazers",
+                "logo": "images/logos/generic-logo.png",
                 "firstName": "Shannon",
                 "lastName": "Brecheisen",
                 "wins": 16,
@@ -197,6 +214,7 @@
             },
             {
                 "teamName": "ShowMe/PackerGuy",
+                "logo": "images/logos/generic-logo.png",
                 "firstName": "Jarrod",
                 "lastName": "Becht",
                 "wins": 8,
@@ -208,6 +226,7 @@
             },
             {
                 "teamName": "Regulatorz",
+                "logo": "images/logos/generic-logo.png",
                 "firstName": "Ryan",
                 "lastName": "Phillips",
                 "wins": 58,
