@@ -14,8 +14,8 @@ export const tradeHistory = async() => {
 
     const tradeHtml = `<div class="card-bottom-margin trade">
                         <figure class="card-bottom-margin">
-                            <img src="../images/trade-history-2020.jpg" alt="Trade Chart" class="img" />
-                            <figcaption class="time-stamp">Updated 12/1/20</figcaption>
+                            <img src="../images/trade-history-2021v1.png" alt="Trade Chart" class="img" />
+                            <figcaption class="time-stamp">Updated 11/5/21</figcaption>
                         </figure>
                         <article class="card container">
                             <h2 class="subtitle card-padding">All Time Trades</h2>                
