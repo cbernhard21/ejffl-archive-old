@@ -13,7 +13,7 @@
                 "loses": 44,
                 "playoffWins": 1,
                 "playoffLoses": 4,
-                "trades": 39,
+                "trades": 41,
                 "championships": []
             },
             {
@@ -25,7 +25,7 @@
                 "loses": 88,
                 "playoffWins": 12,
                 "playoffLoses": 6,
-                "trades": 40,
+                "trades": 41,
                 "championships": [2009, 2013, 2014, 2018]
             },
             {
@@ -49,7 +49,7 @@
                 "loses": 44,
                 "playoffWins": 2,
                 "playoffLoses": 4,
-                "trades": 22,
+                "trades": 25,
                 "championships": []
             },
             {
@@ -61,7 +61,7 @@
                 "loses": 120,
                 "playoffWins": 4,
                 "playoffLoses": 5,
-                "trades": 30,
+                "trades": 31,
                 "championships": []
             },
             {
@@ -85,7 +85,7 @@
                 "loses": 110,
                 "playoffWins": 3,
                 "playoffLoses": 7,
-                "trades": 93,
+                "trades": 94,
                 "championships": []
             },
             {
@@ -121,7 +121,7 @@
                 "loses": 80,
                 "playoffWins": 6,
                 "playoffLoses": 6,
-                "trades": 48,
+                "trades": 50,
                 "championships": [2011, 2019]
             },
             {
@@ -133,7 +133,7 @@
                 "loses": 102,
                 "playoffWins": 5,
                 "playoffLoses": 6,
-                "trades": 43,
+                "trades": 44,
                 "championships": [2015]
             },
             {
@@ -145,10 +145,9 @@
                 "loses": 121,
                 "playoffWins": 1,
                 "playoffLoses": 4,
-                "trades": 63,
+                "trades": 64,
                 "championships": []
             }
-
         ]
     },
     "past": {
