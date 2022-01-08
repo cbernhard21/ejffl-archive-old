@@ -12,7 +12,7 @@
                 "wins": 53,
                 "loses": 44,
                 "playoffWins": 1,
-                "playoffLoses": 4,
+                "playoffLoses": 5,
                 "trades": 41,
                 "championships": []
             },
@@ -24,7 +24,7 @@
                 "wins": 132,
                 "loses": 91,
                 "playoffWins": 12,
-                "playoffLoses": 6,
+                "playoffLoses": 7,
                 "trades": 41,
                 "championships": [2009, 2013, 2014, 2018]
             },
@@ -35,8 +35,8 @@
                 "lastName": "Brecheisen",
                 "wins": 121,
                 "loses": 102,
-                "playoffWins": 9,
-                "playoffLoses": 4,
+                "playoffWins": 11,
+                "playoffLoses": 5,
                 "trades": 97,
                 "championships": [2016, 2017, 2020]
             },
@@ -72,7 +72,7 @@
                 "wins": 65,
                 "loses": 60,
                 "playoffWins": 3,
-                "playoffLoses": 6,
+                "playoffLoses": 7,
                 "trades": 12,
                 "championships": []
             },
@@ -83,10 +83,10 @@
                 "lastName": "Osman",
                 "wins": 111,
                 "loses": 112,
-                "playoffWins": 3,
+                "playoffWins": 5,
                 "playoffLoses": 7,
                 "trades": 94,
-                "championships": []
+                "championships": [2021]
             },
             {
                 "teamName": "J.G. Wentworth",
@@ -119,8 +119,8 @@
                 "lastName": "Czyzewski",
                 "wins": 99,
                 "loses": 82,
-                "playoffWins": 6,
-                "playoffLoses": 6,
+                "playoffWins": 7,
+                "playoffLoses": 7,
                 "trades": 50,
                 "championships": [2011, 2019]
             },
