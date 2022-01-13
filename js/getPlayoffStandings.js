@@ -19,13 +19,13 @@ export async function getPlayoffStandings() {
 
         
         currentOwners.forEach(owner => {
-            let winPercentage = owner.wins / (owner.wins + owner.loses);
+            let winPercentage = owner.playoffWins / (owner.playoffWins + owner.playoffLoses);
             let finalWinPercentage = isNaN(winPercentage) ? '.000' : winPercentage.toFixed(3).slice(1);
             owner.playoffWinPercentage = finalWinPercentage;
         })
 
         pastOwners.forEach(owner => {
-            let winPercentage = owner.wins / (owner.wins + owner.loses);
+            let winPercentage = owner.playoffWins / (owner.playoffWins + owner.playoffLoses);
             let finalWinPercentage = isNaN(winPercentage) ? '.000' : winPercentage.toFixed(3).slice(1);
             owner.playoffWinPercentage = finalWinPercentage;
         })
