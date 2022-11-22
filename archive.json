@@ -13,7 +13,7 @@
                 "loses": 44,
                 "playoffWins": 1,
                 "playoffLoses": 5,
-                "trades": 41,
+                "trades": 49,
                 "championships": []
             },
             {
@@ -25,7 +25,7 @@
                 "loses": 91,
                 "playoffWins": 12,
                 "playoffLoses": 7,
-                "trades": 41,
+                "trades": 46,
                 "championships": [2009, 2013, 2014, 2018]
             },
             {
@@ -37,7 +37,7 @@
                 "loses": 102,
                 "playoffWins": 11,
                 "playoffLoses": 5,
-                "trades": 97,
+                "trades": 103,
                 "championships": [2016, 2017, 2020]
             },
             {
@@ -49,7 +49,7 @@
                 "loses": 47,
                 "playoffWins": 2,
                 "playoffLoses": 4,
-                "trades": 25,
+                "trades": 32,
                 "championships": []
             },
             {
@@ -61,7 +61,7 @@
                 "loses": 124,
                 "playoffWins": 4,
                 "playoffLoses": 5,
-                "trades": 31,
+                "trades": 32,
                 "championships": []
             },
             {
@@ -73,7 +73,7 @@
                 "loses": 60,
                 "playoffWins": 3,
                 "playoffLoses": 7,
-                "trades": 12,
+                "trades": 14,
                 "championships": []
             },
             {
@@ -85,7 +85,7 @@
                 "loses": 112,
                 "playoffWins": 5,
                 "playoffLoses": 7,
-                "trades": 94,
+                "trades": 97,
                 "championships": [2021]
             },
             {
@@ -97,7 +97,7 @@
                 "loses": 18,
                 "playoffWins": 0,
                 "playoffLoses": 0,
-                "trades": 10,
+                "trades": 16,
                 "championships": []
             },
             {
@@ -109,7 +109,7 @@
                 "loses": 110,
                 "playoffWins": 4,
                 "playoffLoses": 6,
-                "trades": 19,
+                "trades": 25,
                 "championships": [2012]
             },
             {
@@ -121,7 +121,7 @@
                 "loses": 82,
                 "playoffWins": 7,
                 "playoffLoses": 7,
-                "trades": 50,
+                "trades": 51,
                 "championships": [2011, 2019]
             },
             {
@@ -133,7 +133,7 @@
                 "loses": 104,
                 "playoffWins": 5,
                 "playoffLoses": 6,
-                "trades": 44,
+                "trades": 50,
                 "championships": [2015]
             },
             {
@@ -145,7 +145,7 @@
                 "loses": 124,
                 "playoffWins": 1,
                 "playoffLoses": 4,
-                "trades": 64,
+                "trades": 69,
                 "championships": []
             }
         ]
